@@ -4,6 +4,7 @@ Ghostlight is a game! I have huge ideas for this game, but I'm not sure how to e
 
 ## Class Diagram
 This is just a rough draft - will be updated/fixed later as the game progresses.
+
 ## GUI
 
 ## Download Directions
@@ -22,4 +23,9 @@ This is just a rough draft - will be updated/fixed later as the game progresses.
 * Sound Designer: me
 * Tester: me
 * Special Thanks: me, the voices in my head, and the pigeon egg
+
+![Gameplay](https://github.com/akiaxin/ProgrammingPortfolio/blob/main/images/wordmaker.png?raw=true)
+
+[Source Code](https://github.com/akiaxin/programming/blob/main/src/wordwizard.py)
+
 --->
