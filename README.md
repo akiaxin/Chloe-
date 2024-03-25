@@ -11,4 +11,4 @@ Ghostlight is a game! I have huge ideas for this game, but I'm not sure how to e
 * Artist: me
 * Sound Designer: me
 * Tester: me
-* Special Thanks: me, the voices in my head, thou pigeon egg
+* Special Thanks: me, the voices in my head, and the pigeon egg
