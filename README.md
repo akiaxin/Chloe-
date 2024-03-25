@@ -4,6 +4,7 @@ Ghostlight is a game! I have huge ideas for this game, but I'm not sure how to e
 ## Class Diagram
 ## GUI
 
+<!---
 ### Credits
 * Producer: me
 * Designer: me
@@ -12,3 +13,4 @@ Ghostlight is a game! I have huge ideas for this game, but I'm not sure how to e
 * Sound Designer: me
 * Tester: me
 * Special Thanks: me, the voices in my head, and the pigeon egg
+--->
