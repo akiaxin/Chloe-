@@ -3,6 +3,7 @@
 Ghostlight is a game! I have huge ideas for this game, but I'm not sure how to execute them. So for now, we can't say anything for certain. It hopefully will be a horror game, but it may just be an RPG. Only time will tell. -->
 
 ## Class Diagram
+This is just a rough draft - will be updated/fixed later as the game progresses.
 ## GUI
 
 <!---
