@@ -8,10 +8,10 @@ This is just a rough draft - will be updated/fixed later as the game progresses.
 
 ## Download Directions
 ### Mac
-1. Make sure that python3 is installed on your computer; some computers have it pre-installed. You can find the download link here: https://www.python.org/downloads/
-2. Download the game! Open Finder and uncompress the game, right click on the folder, and click "New Terminal at Folder". (second to last option)
-3. Make sure Pygame is installed by typing "pip3 install pygame" into the terminal. It'll take a few seconds to download- don't worry, waiting a few seconds won't kill you.
-4. Run the game by typing, "python3 main.py". The game should start running!
+1. Make sure that python3 is installed on your computer; some computers already have it lurking in the deep depths of your computer and you may not need to summon it. You can find the download link here: https://www.python.org/downloads/
+2. Download the ~~virus~~ game! Open Finder and uncompress the game to release it into the world. Right click on the folder, and select "New Terminal at Folder". (second to last option)
+3. Make sure Pygame is installed by speaking the incantation "pip3 install pygame" into the terminal. It'll take a few seconds to download- don't worry, waiting a few seconds won't kill you.
+4. Awaken the game from it's slumber by typing, "python3 main.py". Voila, the game should start running!
 
 <!--
 ### Credits
