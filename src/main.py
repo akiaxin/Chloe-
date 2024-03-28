@@ -1,7 +1,7 @@
 import pygame
 import sys
-from button import Button
 from config import *
+from button import Button
 
 class Game:
     def __init__(self):
@@ -11,9 +11,6 @@ class Game:
         self.running = True
         self.playing = False
         pygame.display.set_caption("Game!")
-
-        start_img = pygame.image.load("images/start.png").convert_alpha()
-        start_button = Button(100, 200, start_img, 0.5)
 
 
     def new(self):
@@ -46,8 +43,16 @@ class Game:
     
 
     def start_screen(self):
-        if start_button.draw():
-            pass
+        start_img = pygame.image.load("images/start.png").convert_alpha()
+        start_button = Button(100, 200, start_img, 5)
+
+        while not self.playing:
+            self.events()
+            self.screen.fill(dark_red)
+            if start_button.draw(self.screen):
+                print("you clicked da button!")
+                self.playing = True
+            pygame.display.update()
 
 
 
@@ -57,11 +62,14 @@ class Game:
 
 g =  Game()
 g.start_screen()
-g.new()
 
 while g.running:
-    g.main()
-    g.game_over()
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            g.running = False
+        if g.playing:
+            g.main()
+        g.game_over()
 
 pygame.quit()
 sys.exit()

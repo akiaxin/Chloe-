@@ -1,6 +1,6 @@
 import pygame
 
-screen_size = (400, 400)
+screen_size = (600, 400)
 FPS = 60
 
 black = (0, 0, 0)
