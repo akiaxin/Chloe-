@@ -1,7 +1,5 @@
 # Ghostlight
-I'm aiming to make a graphics-based horror/reverse horror game. You'll play as a spirit defending your house, which is constantly assaulted by pesky news crews, dumb vloggers, and ghost hunters due to rumours of it being haunted. As the ghostly guardian, you're obliged to guard the estate. 
-
-I have huge ideas for this game, but I'm not sure how to execute them. So for now, we can't say anything for certain. It hopefully will be a horror game, but it may just be an RPG. Only time will tell. 
+A graphical reverse horror game that flips the script on ghostly encounters. Play as a ghostly spirit protecting your haunted estate, which is constantly assaulted by curious vloggers, television crews, and intrepid ghost hunters due to rumours of the estate being haunted. As the ghostly guardian, you're tasked with guarding the estate. 
 
 ## Class Diagram
 This is just a rough draft - will be updated/fixed later as the game progresses.
