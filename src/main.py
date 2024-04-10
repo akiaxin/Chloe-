@@ -10,7 +10,7 @@ class Game:
         self.clock = pygame.time.Clock()
         self.running = True
         self.playing = False
-        pygame.display.set_caption("Game!")
+        pygame.display.set_caption("Game!!!")
 
 
     def new(self):
@@ -43,7 +43,7 @@ class Game:
     
 
     def start_screen(self):
-        start_img = pygame.image.load("src/images/start.png").convert_alpha()
+        start_img = pygame.image.load("images/start.png").convert_alpha()
         start_button = Button(100, 200, start_img, 5)
 
         while not self.playing:
@@ -60,7 +60,7 @@ class Game:
         pass
 
 
-g =  Game()
+g = Game()
 g.start_screen()
 
 while g.running:
