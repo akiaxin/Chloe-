@@ -43,7 +43,7 @@ class Game:
     
 
     def start_screen(self):
-        start_img = pygame.image.load("images/start.png").convert_alpha()
+        start_img = pygame.image.load("images/start.png").convert_alpha() # having an issue right now: if I type src/images/start.png, it works in here but not the terminal; if I just have images/start.png it works in the terminal but not here. ??
         start_button = Button(100, 200, start_img, 5)
 
         while not self.playing:
