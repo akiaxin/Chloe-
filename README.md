@@ -11,8 +11,9 @@ This is just a rough draft - will be updated/fixed later as the game progresses.
 ### Mac
 1. Make sure that **python3** is **installed** on your computer; some computers already have it lurking in the deep depths of your computer and you may not need to summon it. You can find the download link here: **https://www.python.org/downloads/**
 2. **Download** the ~~virus~~ game! Open Finder and **uncompress the game**. Right click on the folder, and select **"New Terminal at Folder"**. (second to last option)
+<img src="https://github.com/akiaxin/ProgrammingPortfolio/blob/main/images/etchasketch2.png?raw=true" alt="gameplay1" width="300">
 3. Make sure **Pygame** is **installed** by speaking the incantation **"pip3 install pygame"** into the terminal.
-<!-- It'll take a few seconds to download- don't worry, waiting a few seconds won't kill you, just a blink of time that amounts to nothing in infinity's face.--->
+<!-- It'll take a few seconds to download- don't worry, waiting a few seconds won't kill you, tis just a blink of time that amounts to nothing in infinity's face.--->
 4. Run the game by typing, **"python3 main.py"**. Voila, the game should start running!
 
 <!--
