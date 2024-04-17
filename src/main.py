@@ -2,6 +2,7 @@ import pygame
 import sys
 from config import *
 from button import Button
+from characters import *
 
 class Game:
     def __init__(self):
@@ -15,6 +16,11 @@ class Game:
 
     def new(self):
         self.playing = True
+        self.all_sprites = pygame.sprite.LayeredUpdates()
+        self.blocks = pygame.sprite.LayeredUpdates()
+        self.enemies = pygame.sprite.LayeredUpdates()
+        self.attacks = pygame.sprite.LayeredUpdates()
+        self.createMap()
 
 
     def events(self):
@@ -24,12 +30,22 @@ class Game:
                 self.playing = False
 
 
+    def createMap(self):
+        for i, row in enumerate(map):
+            for j, column in enumerate(row):
+                if column == "B":
+                    Block(self, j, i)
+                if column == "P":
+                    Player(self, j, i)
+
+
     def update(self):
-        pass
+        self.all_sprites.update()
 
 
     def draw(self):
         self.screen.fill(black)
+        self.all_sprites.draw(self.screen)
         self.clock.tick(FPS)
         pygame.display.update()
 
@@ -51,6 +67,7 @@ class Game:
             self.screen.fill(dark_red)
             if start_button.draw(self.screen):
                 print("you clicked da button!")
+                self.new()
                 self.playing = True
             pygame.display.update()
 
