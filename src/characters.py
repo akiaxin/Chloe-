@@ -20,7 +20,7 @@ class Player(pygame.sprite.Sprite):
         self.y_change = 0
 
         self.image = pygame.Surface([self.width, self.height])
-        self.image.fill(red)
+        self.image.fill(mtndew)
 
         self.rect = self.image.get_rect()
         self.rect.x = self.x
@@ -53,9 +53,9 @@ class Player(pygame.sprite.Sprite):
         if keys[pygame.K_DOWN]:
             self.y_change = player_speed
             self.facing = 'down'
-        if keys[pygame.KMOD_LSHIFT] or keys[pygame.KMOD_RSHIFT]:
-            self.x_change *= 1.2
-            self.y_change *= 1.2
+        # if keys[pygame.KMOD_LSHIFT] or keys[pygame.KMOD_RSHIFT]: # this doesn't work
+        #     self.x_change *= 4
+        #     self.y_change *= 4
 
     def collision(self, direction):
         if direction == "x":
@@ -86,7 +86,7 @@ class Block(pygame.sprite.Sprite):
         self.height = tilesize
 
         self.image = pygame.Surface([self.width, self.height]) 
-        self.image.fill(blue)
+        self.image.fill(yebbow)
         
         self.rect = self.image.get_rect()
         self.rect.x = self.x

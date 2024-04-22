@@ -44,7 +44,7 @@ class Game:
 
 
     def draw(self):
-        self.screen.fill(black)
+        self.screen.fill(eyesore)
         self.all_sprites.draw(self.screen)
         self.clock.tick(FPS)
         pygame.display.update()
