@@ -3,7 +3,7 @@ A graphical reverse horror game that flips the script on ghostly encounters. Pla
 
 ## Class Diagram
 This is just a rough draft - will be updated/fixed later as the game progresses.
-![Class Diagram](https://github.com/akiaxin/Ghostlight/blob/main/img/classdiagram.jpg?raw=true)
+![Class Diagram](https://github.com/akiaxin/Ghostlight/blob/main/img/classdiagram.png?raw=true)
 
 ## GUI
 
