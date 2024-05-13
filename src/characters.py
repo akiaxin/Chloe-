@@ -20,7 +20,7 @@ class Player(pygame.sprite.Sprite):
         self.y_change = 0
 
         self.image = pygame.Surface([self.width, self.height])
-        self.image.fill(mtndew)
+        self.image.fill(red)
 
         self.rect = self.image.get_rect()
         self.rect.x = self.x
